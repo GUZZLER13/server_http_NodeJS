@@ -1,0 +1,35 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+
+    <style type="text/css">
+    .trump {
+        width: 80%;
+        height: auto;
+    }
+
+</style>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>ACCUEIL</h1>
+            <p>Même Trump est responsive...</p>
+            <img src="https://spectator.imgix.net/content/uploads/2017/08/GettyImages-837591040.jpg?auto=compress,enhance,format&crop=faces,entropy,edges&fit=crop&w=820&h=550" alt="trump" class="trump">
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+</html>
